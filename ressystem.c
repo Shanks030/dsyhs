@@ -15,25 +15,28 @@ int main() {
         if (D_choice==1){
             printf("great choice please enter your creadit card's N°:");
             scanf("%ld",&creditcard);
-            if (creditcard>=1000000000000000){
-                printf("succses !");
-                return 0 ;
+            while(creditcard<1000000000000000){
+                printf("sorry!,try again\n");
+                scanf("%ld",&creditcard);
+
             }
-            else{
-                printf("sorry!");
+            if(creditcard>=1000000000000000){
+                printf("succes");
                 return 0 ;
             }
         }
         else if(D_choice==2){
             printf("great choice please enter your creadit card's N°:");
             scanf("%ld",&creditcard);
-            if (creditcard>=1000000000000000){
-                printf("sucsses !");
-            }
-            else{
-                printf("sorry!");
+           while(creditcard<1000000000000000){
+                printf("sorry!,try again\n");
+                scanf("%ld",&creditcard);
 
-        }
+            }
+            if(creditcard>=1000000000000000){
+                printf("succes");
+                return 0 ;
+            }
 
         }
     }
@@ -44,23 +47,28 @@ int main() {
 		 if (S_choice==1){
             printf("great choice please enter your creadit card's N°:");
             scanf("%ld",&creditcard);
-            if (creditcard>=1000000000000000){
-                printf("sucsses !");
+            while(creditcard<1000000000000000){
+                printf("sorry!,try again\n");
+                scanf("%ld",&creditcard);
+
             }
-            else{
-                printf("sorry!");
+            if(creditcard>=1000000000000000){
+                printf("succes");
+                return 0 ;
             }
         }
         else if(S_choice==2){
             printf("great choice please enter your creadit card's N°:");
             scanf("%ld",&creditcard);
-            if (creditcard>=1000000000000000){
-                printf("sucsses !");
-            }
-            else{
-                printf("sorry!");
+           while(creditcard<1000000000000000){
+                printf("sorry!,try again\n");
+                scanf("%ld",&creditcard);
 
-        }
+            }
+            if(creditcard>=1000000000000000){
+                printf("succes");
+                return 0 ;
+            }
 
         }
 
